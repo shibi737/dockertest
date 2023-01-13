@@ -1,6 +1,6 @@
 # tomcat dockerfile starting with Ubuntu 20.04
 # Add a new comment to trigger build.
-FROM ubuntu:20.04
+FROM ubuntu:21.04
 
 RUN mkdir /opt/tomcat/
 
