@@ -1,4 +1,4 @@
-# testing
+# testing github action
 FROM centos
 RUN cd /etc/yum.repos.d/
 RUN sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
