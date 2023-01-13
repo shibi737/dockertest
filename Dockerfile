@@ -18,6 +18,9 @@ RUN java -version
 WORKDIR /opt/tomcat/webapps
 
 ADD tomcat-users.xml /opt/tomcat/conf/
+
+ADD context.xml /opt/tomcat/webapps/manager/META-INF/
+
 RUN curl -O -L https://github.com/AKSarav/SampleWebApp/raw/master/dist/SampleWebApp.war
 EXPOSE 8080
 
