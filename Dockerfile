@@ -1,5 +1,5 @@
 FROM centos
-
+RUN yum -y update
 RUN mkdir /opt/tomcat/
 
 WORKDIR /opt/tomcat
